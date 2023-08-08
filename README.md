@@ -1,3 +1,5 @@
+The write_imports Tool is a helper for creating "import" lines in Python. It searches all directories and subdirectories to find Python files. Once found, the tool's script identifies all functions and classes in these files, but it skips any functions that start with an underscore. Additionally, there's a Jupyter notebook that demonstrates how to use this tool.
+
 
 ![diag](https://github.com/GenaroHacker/write_imports/assets/95663273/f2d52ee6-474e-47a2-b7f9-f77f0e599115)
 
