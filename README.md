@@ -1,4 +1,8 @@
 
+![diag](https://github.com/GenaroHacker/write_imports/assets/95663273/f2d52ee6-474e-47a2-b7f9-f77f0e599115)
+
+
+
 # write_imports Utility
 
 This utility is designed to automate the generation of import statements for Python modules in a directory. It has two main parts: a Python script and a Jupyter notebook.
