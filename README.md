@@ -8,7 +8,7 @@
 
 ## How to Use:
 - Begin by opening the provided **main.ipynb** **Jupyter notebook**.
-- In the very first cell, clone your repository using the code  `!git clone YOUR_REPO_LINK_GOES_HERE` in the first cell.
+- Clone your repository using the code  `!git clone YOUR_REPO_LINK_GOES_HERE` in the first cell.
 - Then execute all the cells in the notebook.
 - This will run the tool and you'll be able to see how it works with your program, generating the required "import" lines.
 
