@@ -1,4 +1,5 @@
 # **write_imports Tool**
+## Auto generate Python import lines for your project.
 `write_imports` is a tool for printing "import" lines in Python. It searches all directories and subdirectories to find Python files. Once found, the tool's script identifies all functions and classes in these files. However, it skips any functions that start with an underscore and any specified directories.
 
 Additionally, there's a Jupyter notebook that demonstrates how to use this tool.
