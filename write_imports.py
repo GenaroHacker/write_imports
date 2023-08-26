@@ -34,6 +34,6 @@ def write_imports(excluded_directories=[]):
                         import_statements += f"from {import_path} import {class_name}\n"
                     
                     import_statements += "\n"
-    import_statements += "\n\n%%capture # Delete this line to see the new imports\n\n\n"
+    import_statements += "\n\n%%capture\n# Remove all above to see new imports\n\n"
     import_statements += f'\n\n\n\nprint(write_imports({filtered_directories}))\n\n\n\n'
     return import_statements
