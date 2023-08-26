@@ -15,7 +15,7 @@ def write_imports(excluded_directories=[]):
     excluded_directories += exclude_by_default
     """Generate import statements from Python files in the current directory, excluding specified directories."""
     all_directories = [d for d in os.listdir() if os.path.isdir(d) and d not in excluded_directories]
-    import_statements = f"\n# Delete this line to see the new imports\n%%capture\n\n\n\n#@title Import Statements\n#Modules: {all_directories}\n\n\n\n"
+    import_statements = f"\n\n\n#@title Import Statements\n#Modules: {all_directories}\n\n\n\n"
     filtered_directories = [x for x in excluded_directories if x not in exclude_by_default]
     
     for directory in all_directories:
@@ -34,5 +34,6 @@ def write_imports(excluded_directories=[]):
                         import_statements += f"from {import_path} import {class_name}\n"
                     
                     import_statements += "\n"
+    import_statements += "\n\n%%capture # Delete this line to see the new imports\n\n\n"
     import_statements += f'\n\n\n\nprint(write_imports({filtered_directories}))\n\n\n\n'
     return import_statements
