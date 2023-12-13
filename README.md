@@ -1,4 +1,7 @@
 # **write_imports Tool**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/GenaroHacker/skill_builder_exams/blob/main/main.ipynb](https://colab.research.google.com/github/GenaroHacker/write_imports/blob/main/main.ipynb))
+
 ## Auto generate Python import lines for your project.
 `write_imports` is a tool for printing "import" lines in Python. It searches all directories and subdirectories to find Python files. Once found, the tool's script identifies all functions and classes in these files. However, it skips any functions that start with an underscore and any specified directories.
 
